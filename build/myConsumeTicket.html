@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<script>
+  (function IsPC() {
+    for (var userAgentInfo = navigator.userAgent, Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"], flag = !0, v = 0; v < Agents.length; v++)
+      if (userAgentInfo.indexOf(Agents[v]) > 0) {
+        console.log('移动');
+
+        document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+'px';
+        //body字体大小为页面宽度除以 10
+
+        return
+      }
+    console.log('PC');
+
+    document.getElementsByTagName('html')[0].style.fontSize=75+'px';
+    /*
+      设置页面 html 文字根字号大小为37.5，为了让 less 好计算
+      这样 less 里的数值是多少就是多少 px了
+    */
+    return
+  })();
+  // 判断浏览器是手机还是PC
+</script>
+<link type='text/css' rel='stylesheet' href='public/bootstrap/css/bootstrap.min.css'>
+
+  <title>Document</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=b16e8572d951c5754a26408bebc7d5ab'>
+</head>
+<body>
+<div class='html_body p-r'>
+  <div class='myConsumeTicket p-a'>
+    <div class='myConsumeTicketWrap'>
+      <div class='ticketInfo ta-c'>
+        <div class='storeLogoWrap d-b'>
+          <div class='storeLogo d-b p-r'>
+            <img class='d-b p-a' src='img/jiyejiaLogo2.jpg'>
+          </div>
+        </div>
+        <div class='ticketName'>兑换经典牛肉饭(标准碗）</div>
+        <div class='ticketHint d-i'>请到店后使用</div>
+        <div class='nowUseBtn d-b'>立即使用</div>
+        <div class='dateBox'>
+          有限日期：2016.12.01-2017.12.01
+        </div>
+      </div>
+      <div class='linkList ta-c clear'>
+        <a href='#' class='box box1 d-b f-l'>
+          券详情
+        </a>
+        <div class="line d-b f-l"></div>
+        <a href='#' class='box box2 d-b f-l'>
+          适用门店
+        </a>
+        <div class="line d-b f-l"></div>
+        <a href='#' class='box box3 d-b f-l'>
+          公众号
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src='public/jquery/jquery-1.12.4.min.js'></script>
+<script src='public/bootstrap/js/bootstrap.min.js'></script>
+<script>
+  $(function(){
+    $(window).resize(function() {
+    //当页面宽度变化时
+      (function IsPC() {
+      //判断是 移动端 还是 PC
+        for (var userAgentInfo = navigator.userAgent, Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"], flag = !0, v = 0; v < Agents.length; v++)
+          if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            console.log('移动');
+
+            document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+'px';
+            //body字体大小为页面宽度除以 10
+
+            return
+          }
+        console.log('PC');
+
+        document.getElementsByTagName('html')[0].style.fontSize=75+'px';
+        /*
+          设置页面 html 文字根字号大小为37.5，为了让 less 好计算
+          这样 less 里的数值是多少就是多少 px了
+        */
+
+        return
+      })();
+    });
+
+  });
+</script>
+
+<script src='js/index.js?rev=b3ffbaa060cb9447726916a09f6d8d70'></script>
+<script>
+  $(function(){
+    js_.myConsumeTicket();
+  });
+</script>
+</body>
+</html>

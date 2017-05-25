@@ -1,0 +1,153 @@
+.html_body {
+    .nowUse {
+        width: 100%;
+        background: @textblackColor1;
+        .p(68,44,84,44);
+        left:0;
+        top:0;
+        .nowUseWrap {
+          top:50%;
+          left:0;
+          width:100%;
+          transform:translate(0,-50%);
+          .p(68,44,84,44);
+            .nowUseBox {
+                background: @defaultColor;
+                width: 100%;
+                .b-r(10);
+                overflow: hidden;
+                .l(44);
+
+                .ticketTop {
+                    width: 100%;
+                    .h(232);
+                    background: url('../img/ticketTopBg.jpg');
+                    .p(30,0,0,0);
+
+                    dt {
+                        color: @textgrayColor1;
+                        .h(70);
+                        left: 0;
+                        top: 0;
+
+                        .textTop {
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%,-50%);
+                            .h(70);
+
+                            .logoBox {
+                                .w(70);
+                                .h(70);
+                                .border(1,@textgrayColor1);
+                                border-radius: 50%;
+
+                                .logoImg {
+                                    .w(58);
+                                    .h(58);
+                                    .bg-s(58,58);
+                                    background-position: center center;
+                                    background-repeat: no-repeat;
+                                    border-radius: 50%;
+                                    background-color: @textgrayColor1;
+                                    margin: 0 auto;
+                                    .t-t(0,6);
+                                }
+                            }
+
+                            .text {
+                                .f-s(36);
+                                .l-h(70);
+                                .ml(14);
+                            }
+                        }
+                    }
+
+                    dd {
+                        width: 100%;
+                        .l-h(58);
+                        color: @textblackColor1;
+                        .f-s(52);
+                        .pt(18);
+
+                        span {
+                            color: @orangeColor2;
+                            .mr(10);
+                            .f-s(54);
+                            .l-h(58);
+                            .t-t(0,2);
+                        }
+                    }
+                }
+
+                .line {
+                    width: 100%;
+                    height: 2px;
+                    .border-bottom-dashed(2,@textgrayColor1);
+
+                    .circleBg {
+                        .w(24);
+                        .h(24);
+                        background: @textblackColor1;
+                        z-index: 2;
+                        border-radius: 50%;
+
+                        &.circleLeft {
+                            .l(-12);
+                            .t(-11);
+                        }
+
+                        &.circleRight {
+                            .r(-12);
+                            .t(-11);
+                        }
+                    }
+                }
+
+                .codeBox {
+                    width: 100%;
+                    .p(55,0,75,0);
+                    background: @defaultColor;
+
+                    .codeBg {
+                        .w(460);
+                        .h(460);
+                        background: url('../img/codeBorder.png');
+                        .bg-s(460,460);
+                        margin: 0 auto;
+                        .p(10,10,10,10);
+
+                        img {
+                            .w(440);
+                            .h(440);
+                        }
+                    }
+                }
+
+                .codeNum {
+                    width: 100%;
+                    .l-h(30);
+                    .f-s(30);
+                    color: @textblackColor1;
+                    .p(14,0,40,0);
+                }
+
+                .hintText {
+                    width: 100%;
+                    .l-h(30);
+                    .f-s(24);
+                    color: @textgrayColor1;
+                }
+            }
+
+            .closeBtn {
+                .w(76);
+                .h(76);
+                margin: 0 auto;
+                .mt(48);
+                background-image: url('../img/closeBtn.png');
+                .bg-s(76,76);
+            }
+        }
+    }
+}

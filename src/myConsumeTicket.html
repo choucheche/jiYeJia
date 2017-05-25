@@ -1,0 +1,46 @@
+@@include('./include/header.html')
+  <title>Document</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=@@hash'>
+</head>
+<body>
+<div class='html_body p-r'>
+  <div class='myConsumeTicket p-a'>
+    <div class='myConsumeTicketWrap'>
+      <div class='ticketInfo ta-c'>
+        <div class='storeLogoWrap d-b'>
+          <div class='storeLogo d-b p-r'>
+            <img class='d-b p-a' src='img/jiyejiaLogo2.jpg'>
+          </div>
+        </div>
+        <div class='ticketName'>兑换经典牛肉饭(标准碗）</div>
+        <div class='ticketHint d-i'>请到店后使用</div>
+        <div class='nowUseBtn d-b'>立即使用</div>
+        <div class='dateBox'>
+          有限日期：2016.12.01-2017.12.01
+        </div>
+      </div>
+      <div class='linkList ta-c clear'>
+        <a href='#' class='box box1 d-b f-l'>
+          券详情
+        </a>
+        <div class="line d-b f-l"></div>
+        <a href='#' class='box box2 d-b f-l'>
+          适用门店
+        </a>
+        <div class="line d-b f-l"></div>
+        <a href='#' class='box box3 d-b f-l'>
+          公众号
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+@@include('./include/footer.html')
+<script src='js/index.js?rev=@@hash'></script>
+<script>
+  $(function(){
+    js_.myConsumeTicket();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@@include('./include/header.html')
+  <title>优惠券详情</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=@@hash'>
+</head>
+<body>
+<div class='html_body'>
+  <div class='scanFocus p-r'>
+    <div class='scanFocusBox p-a'>
+      <div class='codeBox'>
+      <div class='storeLogo d-b p-r'>
+        <img class='d-b p-a' src='img/jiyejiaLogo2.jpg'>
+      </div>
+      <p class='storeName ta-c'>吉野家微信会员中心</p>
+      <img class='codeImg d-b' src='img/codeImg.jpg'>
+      <p class='explainText ta-c'>扫一扫 | 关注吉野家</p>
+    </div>
+      <div class='shareBtn d-b ta-c'>分享二维码</div>
+    </div>
+  </div>
+</div>
+@@include('./include/footer.html')
+<script src='js/index.js?rev=@@hash'></script>
+<script>
+  $(function(){
+    js_.scanFocus();
+  });
+</script>
+</body>
+</html>

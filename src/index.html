@@ -1,0 +1,69 @@
+@@include('./include/header.html')
+  <title>Document</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=@@hash'>
+</head>
+<body>
+<div class='html_body'>
+  <div class='myCard'>
+    <div class='myCardWarp clear'>
+      <div class='myCardBox d-b' style='background-image:url("img/jieyejiaBg.jpg");'>
+        <div class='logoImg d-b f-l' style='background-image:url("img/jiyejiaLogo.jpg");'></div>
+        <dl class='f-l'>
+          <dt>吉野家</dt>
+          <dd>VIP会员卡</dd>
+        </dl>
+        <div class='codeImg d-b f-r' style='background-image:url("img/jiyejiaCode.png");'></div>
+        <div class='codeNum clear-before'>2895 0004 6603</div>
+      </div>
+      <div class='cardInfoBox'>
+        <a class='f-l ta-c' href='#'>
+          <dl>
+            <dt>2800</dt>
+            <dd>积分</dd>
+          </dl>
+        </a>
+        <div class='line f-l'></div>
+        <a class='f-l ta-c' href='#'>
+          <dl>
+            <dt>查看</dt>
+            <dd>优惠券</dd>
+          </dl>
+        </a>
+        <div class='line f-l'></div>
+        <a class='f-l ta-c' href='#'>
+          <dl>
+            <dt>查看</dt>
+            <dd>当季优惠</dd>
+          </dl>
+        </a>
+      </div>
+    </div>
+    <div class='graySeparate d-b'></div>
+    <div class='myVipList'>
+      <a class='box box1 d-b p-r' href='#'>
+          会员卡详情
+        <span class='arrowsMore'></span>
+      </a>
+      <a class='box box2 d-b p-r' href='#'>
+          会员专属券
+        <span class='arrowsMore'></span>
+      </a>
+      <a class='box box3 d-b p-r' href='#'>
+          会员信息
+        <span class='arrowsMore'></span>
+      </a>
+      <a class='box box4 d-b p-r' href='#'>
+          会员信息
+        <span class='arrowsMore'></span>
+    </div>
+  </div>
+</div>
+@@include('./include/footer.html')
+<script src='js/index.js?rev=@@hash'></script>
+<script>
+  $(function(){
+    js_.index();
+  });
+</script>
+</body>
+</html>

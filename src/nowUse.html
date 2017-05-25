@@ -1,0 +1,45 @@
+@@include('./include/header.html')
+  <title>优惠券详情</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=@@hash'>
+</head>
+<body>
+<div class='html_body'>
+  <div class='nowUse p-r'>
+    <div class="nowUseWrap p-a">
+      <div class='nowUseBox'>
+        <dl class='ticketTop'>
+          <dt class='p-r'>
+            <div class='textTop p-a'>
+              <div class='logoBox d-b f-l'>
+                <div class='logoImg d-b' style='background-image:url("img/jiyejiaLogo2.jpg");'></div>
+              </div>
+              <div class="text d-b f-l">吉野家</div>
+            </div>
+          </dt>
+          <dd class='ta-c'><span>30</span>元代金券</dd>
+        </dl>
+        <div class='line p-r'>
+          <div class='circleBg circleLeft d-b p-a'></div>
+          <div class='circleBg circleRight d-b p-a'></div>
+        </div>
+        <div class='codeBox'>
+          <div class='codeBg d-b'>
+            <img class='d-b' src='img/codeImg.jpg'>
+          </div>
+          <div class='codeNum ta-c'>9685 1941 8371</div>
+          <div class='hintText ta-c'>出示给店员扫描二维码即可使用</div>
+        </div>
+      </div>
+      <div class='closeBtn'></div>
+    </div>
+  </div>
+</div>
+@@include('./include/footer.html')
+<script src='js/index.js?rev=@@hash'></script>
+<script>
+  $(function(){
+    js_.nowUse();
+  });
+</script>
+</body>
+</html>

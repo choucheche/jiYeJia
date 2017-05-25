@@ -1,0 +1,265 @@
+.html_body {
+    .registerVip {
+        background: @linegrayColor2;
+        width: 100%;
+        .p(32,24,75,24);
+
+        .titleText {
+            .f-s(26);
+            color: @textblackColor3;
+            .l-h(34);
+            .pb(34);
+            .pl(20);
+        }
+
+        .registerVipBox {
+            width: 100%;
+            .border(1,@linegrayColor1);
+            .b-r(8);
+            .p(0,18,0,18);
+            background: @defaultColor;
+
+            .box {
+                .p(27,0,27,0);
+                width: 100%;
+                .border-bottom(1,@linegrayColor1);
+                .h(96);
+                .l-h(42);
+                &:last-of-type {
+                    border-bottom: none;
+                }
+
+                .text {
+                    .f-s(30);
+                    color: @textblackColor1;
+                    .mr(15);
+                    .l-h(42);
+                    .h(42);
+
+                }
+                span {
+                    color: @redColor1;
+                    .mr(16);
+                    .l-h(42);
+                    .h(42);
+                    .f-s(30);
+                }
+                .writeText {
+                    .w(548);
+                    .h(42);
+                    .l-h(42);
+                    .t-t(0,-2);
+                    .input-append {
+                        .h(42);
+                        .l-h(42);
+                        .add-on {
+                            display: none;
+                        }
+                    }
+
+                    input {
+                        .w(350);
+                        .h(42);
+                        .l-h(42);
+                        border: none;
+                        border-width:0;
+                        .f-s(30);
+                        .p(0,5,0,5);
+                    }
+                    .sexBox{
+                      .sexText{
+                        .f-s(30);
+                        .l-h(42);
+                      }
+
+                      .switchBtn{
+                        .w(78);
+                        .h(42);
+                        .border(1,@linegrayColor3);
+                        .b-r(42);
+                        .ml(15);
+                        .circle{
+                          .w(32);
+                          .h(32);
+                          background:@pinkColor4;
+                          border-radius:50%;
+                          .r(4);
+                          .t(3);
+                          z-index:2;
+                          transition: all 0.5s ease;
+                          .t-t(0,0);
+                        }
+                        &.boy{
+                          .circle{
+                            background:@blueColor1;
+                            .t-t(-34,0);
+                          }
+                        }
+                      }
+                    }
+                }
+            }
+        }
+        .btn{
+          width:100%;
+          .h(88);
+          background:@orangeColor2;
+          .mt(50);
+          color:@defaultColor;
+          .f-s(30);
+          .l-h(88);
+          padding:0;
+          .b-r(8);
+          &:active{
+            opacity:0.8;
+          }
+        }
+        .fixTitle{
+          width:100%;
+          .b(75);
+          left:0;
+          color:@textgrayColor1;
+          .l-h(32);
+          .f-s(24);
+        }
+    }
+}
+
+.datetimepicker {
+    .p(4,4,4,4);
+    .mt(1);
+    .b-r(4);
+}
+
+.datetimepicker-inline {
+    .w(220);
+}
+
+[class*=" datetimepicker-dropdown"]:before {
+    .border-left(7px,transparent);
+    .border-right(7px,transparent);
+    .border-bottom(7px,#cccccc);
+    border-width:0;
+}
+
+[class*=" datetimepicker-dropdown"]:after {
+    .border-left(6px,transparent);
+    .border-right(6px,transparent);
+    .border-bottom(6px,#fff);
+}
+
+[class*=" datetimepicker-dropdown-top"]:before {
+    .border-left(7px,transparent);
+    .border-right(7px,transparent);
+    .border-bottom(7px,#cccccc);
+}
+
+[class*=" datetimepicker-dropdown-top"]:after {
+    .border-left(6px,transparent);
+    .border-right(6px,transparent);
+    .border-bottom(6px,#fff);
+}
+
+.datetimepicker-dropdown-bottom-left:before {
+    .t(-7);
+    .r(6);
+}
+
+.datetimepicker-dropdown-bottom-left:after {
+    .t(-6);
+    .r(7);
+}
+
+.datetimepicker-dropdown-bottom-right:before {
+    .t(-7);
+    .l(6);
+}
+
+.datetimepicker-dropdown-bottom-right:after {
+    .t(-6);
+    .l(7);
+    border-width:0;
+    width:0;
+}
+
+.datetimepicker-dropdown-top-left:before {
+    .b(-7);
+    .r(6);
+}
+
+.datetimepicker-dropdown-top-left:after {
+    .b(-6);
+    .r(7);
+}
+
+.datetimepicker-dropdown-top-right:before {
+    .b(-7);
+    .l(6);
+}
+
+.datetimepicker-dropdown-top-right:after {
+    .b(-6);
+    .l(7);
+}
+
+.datetimepicker td,
+.datetimepicker th {
+    .w(20);
+    .h(20);
+    .b-r(4);
+}
+
+.datetimepicker table tr td span {
+    width: 23%;
+    .h(84);
+    .l-h(84);
+    .b-r(4);
+}
+
+.datetimepicker .datetimepicker-hours span {
+    .h(26);
+    .l-h(26);
+}
+
+.datetimepicker .datetimepicker-hours fieldset legend,
+.datetimepicker .datetimepicker-minutes fieldset legend {
+    .l-h(30);
+}
+
+.datetimepicker .datetimepicker-minutes span {
+    .h(26);
+    .l-h(26);
+}
+
+.datetimepicker th.switch {
+    .w(145);
+}
+
+.input-append.date .add-on i,
+.input-group.date .input-group-addon span,
+.input-prepend.date .add-on i {
+    .w(14);
+    .h(14);
+}
+
+.dropdown-menu {
+    .f-s(22);
+    left:10% !important;
+    top:50% !important;
+    transform:translateY(-50%);
+    .mt(2);
+    .m-w(160);
+    width:80%;
+    position:fixed;
+}
+.table-condensed > tbody > tr > td,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > td,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > thead > tr > th {
+    .p(15,15,15,15);
+}
+.datetimepicker table{
+  width:100%;
+}

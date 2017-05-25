@@ -1,0 +1,1155 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-b {
+  display: block;
+}
+.nd-b {
+  display: none;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.va-t {
+  vertical-align: middle;
+}
+.va-b {
+  vertical-align: bottom;
+}
+.va-t {
+  vertical-align: top;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.text-h {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.clear:after {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: block;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+html * {
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*禁止点击链接后，IOS出现背景色*/
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  border: none;
+}
+body,
+html {
+  font-family: Microsoft YaHei, Helvetica Neue, Helvetica, Roboto, STHeiTi, Arial, sans-serif;
+}
+body {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  overflow-x: hidden;
+}
+input,
+textarea {
+  -webkit-appearance: none;
+  /*消除输入框和按钮的原生外观*/
+}
+a {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+dl {
+  margin: 0;
+}
+dl dt {
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+.html_body {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+.loadingIcon {
+  width: 100%;
+  height: 0.8rem;
+  background: url(../img/load_gif.gif?v=bmbyqqTrOFOCYS36hZ2biw%3D%3D) no-repeat center center;
+  background-size: 0.42666667rem 0.42666667rem;
+}
+.noThing {
+  width: 100%;
+  line-height: 1.06666667rem;
+  font-size: 0.4rem;
+  color: #999;
+}
+.html_body .myCard {
+  width: 100%;
+  background: #fff;
+}
+.html_body .myCard .myCardWarp {
+  padding: 0.50666667rem 0.32rem 0.29333333rem 0.32rem;
+  width: 100%;
+}
+.html_body .myCard .myCardWarp .myCardBox {
+  width: 9.36rem;
+  height: 5.62666667rem;
+  border-radius: 0.32rem;
+  box-shadow: 0rem 0.06666667rem 0.4rem 0rem #262525;
+  margin-bottom: 0.56rem;
+  padding: 0.56rem 0.82666667rem 0rem 0.56rem;
+  background-size: 100% 100%;
+}
+.html_body .myCard .myCardWarp .myCardBox .logoImg {
+  width: 1.22666667rem;
+  height: 1.22666667rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  background-size: 100% auto;
+  background-color: #fff;
+  border: 0.01333333rem #fff solid;
+}
+.html_body .myCard .myCardWarp .myCardBox dl {
+  font-size: 0.42666667rem;
+  line-height: 0.53333333rem;
+  color: #fff;
+  padding-top: 0.04rem;
+  margin-left: 0.29333333rem;
+  letter-spacing: 0.01333333rem;
+}
+.html_body .myCard .myCardWarp .myCardBox dl dt {
+  padding-bottom: 0.06666667rem;
+}
+.html_body .myCard .myCardWarp .myCardBox .codeImg {
+  width: 0.64rem;
+  height: 0.64rem;
+  -webkit-transform: translate(0rem, 0.29333333rem);
+          transform: translate(0rem, 0.29333333rem);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.html_body .myCard .myCardWarp .myCardBox .codeNum {
+  width: 100%;
+  line-height: 0.53333333rem;
+  color: #fff;
+  font-size: 0.50666667rem;
+  font-weight: bold;
+  padding-top: 3.86666667rem;
+}
+.html_body .myCard .myCardWarp .cardInfoBox {
+  width: 100%;
+}
+.html_body .myCard .myCardWarp .cardInfoBox a {
+  width: 3.10666667rem;
+  height: 1.04rem;
+}
+.html_body .myCard .myCardWarp .cardInfoBox a dl:active {
+  opacity: 0.8;
+}
+.html_body .myCard .myCardWarp .cardInfoBox a dl dt {
+  font-size: 0.48rem;
+  line-height: 0.50666667rem;
+  padding-bottom: 0.13333333rem;
+  color: #f88c23;
+}
+.html_body .myCard .myCardWarp .cardInfoBox a dl dd {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  color: #999;
+}
+.html_body .myCard .myCardWarp .cardInfoBox .line {
+  width: 0.01333333rem;
+  height: 0.72rem;
+  background: #ddd;
+  -webkit-transform: translate(0rem, 0.13333333rem);
+          transform: translate(0rem, 0.13333333rem);
+}
+.html_body .myCard .graySeparate {
+  width: 100%;
+  height: 0.32rem;
+  background: #f4f6f7;
+}
+.html_body .myCard .myVipList {
+  width: 100%;
+  padding: 0rem 0.32rem 1.33333333rem 0.32rem;
+}
+.html_body .myCard .myVipList .box {
+  width: 100%;
+  line-height: 0.50666667rem;
+  padding: 0.4rem 0rem 0.4rem 0.86666667rem;
+  font-size: 0.4rem;
+  color: #333;
+  border-bottom: 0.01333333rem #ddd solid;
+  background-size: 0.52rem 0.45333333rem;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+.html_body .myCard .myVipList .box.box1 {
+  background-image: url(../img/myVipListIcon1.png?v=AaRL%2BYIEnrEt0%2FGcF%2FK9QQ%3D%3D);
+}
+.html_body .myCard .myVipList .box.box2 {
+  background-image: url(../img/myVipListIcon2.png?v=xZ5BXDrkRckEy99sGzVQTA%3D%3D);
+}
+.html_body .myCard .myVipList .box.box3 {
+  background-image: url(../img/myVipListIcon3.png?v=lMwS4pIfORiTeHIHsRmY9w%3D%3D);
+}
+.html_body .myCard .myVipList .box.box4 {
+  background-image: url(../img/myVipListIcon4.png?v=aYmQ1uZdnOh4XeDC7fTf6Q%3D%3D);
+}
+.html_body .myCard .myVipList .box:after {
+  content: "";
+  display: block;
+  background-image: url(../img/arrowsMore.png?v=TshXF3UGdUZxyng4W8DF8Q%3D%3D);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0.13333333rem;
+  height: 0.24rem;
+  margin-top: -0.12rem;
+  background-size: 0.13333333rem 0.24rem;
+}
+.html_body .myCard .myVipList .box:active {
+  opacity: 0.8;
+}
+.html_body .myConsumeTicket {
+  background: #fff;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap {
+  width: 100%;
+  padding: 1.17333333rem 0.32rem 1.33333333rem 0.32rem;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo {
+  width: 100%;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .storeLogoWrap {
+  border: 0.02666667rem #1a1a1a solid;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 3.09333333rem;
+  height: 3.09333333rem;
+  padding: 0.24rem 0.24rem 0.24rem 0.24rem;
+  background: #fff;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .storeLogoWrap .storeLogo {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  border-radius: 50%;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .storeLogoWrap .storeLogo img {
+  width: 1.78666667rem;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -0.89333333rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .ticketName {
+  width: 100%;
+  font-size: 0.48rem;
+  line-height: 0.56rem;
+  color: #333;
+  padding: 1.36rem 0rem 0.69333333rem 0rem;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .ticketHint {
+  background: #ffedf4;
+  padding: 0.08rem 0.33333333rem 0.08rem 0.33333333rem;
+  color: #db6895;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  border: 0.01333333rem #db6895 dashed;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .nowUseBtn {
+  width: 6.69333333rem;
+  height: 0.98666667rem;
+  border-radius: 0.49333333rem;
+  margin: 0 auto;
+  background: #f88c23;
+  margin-top: 1.10666667rem;
+  color: #fff;
+  font-size: 0.48rem;
+  line-height: 0.53333333rem;
+  padding: 0.22666667rem 0rem 0.22666667rem 0rem;
+  box-shadow: 0rem 0.06666667rem 0.06666667rem 0rem #f88c23;
+  cursor: pointer;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .nowUseBtn:active {
+  opacity: 0.8;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .ticketInfo .dateBox {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  padding: 0.32rem 0rem 1.93333333rem 0rem;
+  color: #999;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList {
+  width: 100%;
+  padding: 0rem 0.76rem 0rem 0.78666667rem;
+}
+@media screen and (max-width: 376px) {
+  .html_body .myConsumeTicket .myConsumeTicketWrap .linkList {
+    padding: 0rem 0.74666667rem 0rem 0.77333333rem;
+  }
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList .box {
+  width: 33%;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  color: #666;
+  background-repeat: no-repeat;
+  background-size: 0.44rem 0.38666667rem;
+  background-position: center 0;
+  padding-top: 0.50666667rem;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList .box.box1 {
+  background-image: url(../img/linkIcon1.png?v=q8hh2owPvFMWSjXA8qPfPA%3D%3D);
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList .box.box2 {
+  background-image: url(../img/linkIcon2.png?v=hLHPIpnBLCNkv%2Fh8dL5kdA%3D%3D);
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList .box.box3 {
+  background-image: url(../img/linkIcon3.png?v=ejbjXyFEVZPfn2pCnCaahg%3D%3D);
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList .box:active {
+  opacity: 0.8;
+}
+.html_body .myConsumeTicket .myConsumeTicketWrap .linkList .line {
+  width: 1px;
+  height: 0.56rem;
+  background: #d3d3d3;
+  -webkit-transform: translate(0rem, 0.24rem);
+          transform: translate(0rem, 0.24rem);
+}
+.html_body .myIntegral .myIntegralNum {
+  background: url(../img/myIntegralNumBg.jpg?v=ZteFBngvnAcC%2FgDzVqZJvw%3D%3D);
+  background-size: 100% 100%;
+  height: 4rem;
+  width: 100%;
+  padding-top: 1.26666667rem;
+}
+.html_body .myIntegral .myIntegralNum dl {
+  width: 100%;
+}
+.html_body .myIntegral .myIntegralNum dl dt {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  padding-bottom: 0.13333333rem;
+  color: #ffcdab;
+}
+.html_body .myIntegral .myIntegralNum dl dd {
+  font-size: 0.64rem;
+  line-height: 0.72rem;
+  color: #fff;
+}
+.html_body .myIntegral .myIntegralTitle {
+  width: 100%;
+  padding: 0.18666667rem 0rem 0.18666667rem 0.32rem;
+  color: #666;
+  font-size: 0.32rem;
+  line-height: 0.42666667rem;
+  background: #f4f6f7;
+}
+.html_body .myIntegral .integralList {
+  width: 100%;
+  padding: 0rem 0.32rem 0rem 0.32rem;
+}
+.html_body .myIntegral .integralList .box {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px #ddd solid;
+}
+.html_body .myIntegral .integralList .box dl {
+  padding: 0.33333333rem 0rem 0.2rem 0rem;
+  width: 8rem;
+}
+.html_body .myIntegral .integralList .box dl dt {
+  color: #333;
+  font-size: 0.4rem;
+  line-height: 0.48rem;
+  padding-bottom: 0.18666667rem;
+}
+.html_body .myIntegral .integralList .box dl dd {
+  color: #999;
+  font-size: 0.32rem;
+  line-height: 0.34666667rem;
+}
+.html_body .myIntegral .integralList .box .integralNum {
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  color: #333;
+  padding-top: 0.4rem;
+}
+.html_body .myIntegral .codeFix {
+  right: 0;
+  bottom: 0.8rem;
+  z-index: 999;
+  width: 2.77333333rem;
+  height: 0.85333333rem;
+  background: #333;
+  padding: 0rem 0.26666667rem 0rem 0.08rem;
+  border-top-left-radius: 0.42666667rem;
+  border-bottom-left-radius: 0.42666667rem;
+}
+.html_body .myIntegral .codeFix .code {
+  width: 0.69333333rem;
+  height: 0.69333333rem;
+  background: #fff;
+  padding: 0.16rem 0rem 0.16rem 0rem;
+  margin-top: 0.08rem;
+  border-radius: 50%;
+}
+.html_body .myIntegral .codeFix .code img {
+  width: 0.37333333rem;
+  height: 0.37333333rem;
+  margin: 0 auto;
+}
+.html_body .myIntegral .codeFix .text {
+  color: #fff;
+  line-height: 0.45333333rem;
+  font-size: 0.37333333rem;
+  padding-top: 0.2rem;
+}
+.html_body .couponDetails {
+  width: 100%;
+  padding: 0.4rem 0.32rem 0.66666667rem 0.32rem;
+  background: #f4f6f7;
+}
+.html_body .couponDetails .detailsInfo {
+  width: 100%;
+  padding: 0rem 0.26666667rem 0rem 0.26666667rem;
+  margin-bottom: 0.32rem;
+  background: #fff;
+  border-radius: 0.10666667rem;
+  border: 1px #ddd solid;
+}
+.html_body .couponDetails .detailsInfo .titleText {
+  padding: 0.33333333rem 0rem 0.33333333rem 0rem;
+  border-bottom: 1px #ddd solid;
+  font-size: 0.42666667rem;
+  line-height: 0.50666667rem;
+  color: #333;
+}
+.html_body .couponDetails .detailsInfo .infoList {
+  width: 100%;
+  padding: 0.32rem 0rem 0.32rem 0rem;
+}
+.html_body .couponDetails .detailsInfo .infoList dl {
+  width: 100%;
+  margin: 0.14666667rem 0rem 0.14666667rem 0rem;
+}
+.html_body .couponDetails .detailsInfo .infoList dl dt {
+  left: 0;
+  top: 0;
+  color: #333;
+  width: 2.26666667rem;
+  line-height: 0.45333333rem;
+  font-size: 0.37333333rem;
+  word-wrap: break-word;
+}
+.html_body .couponDetails .detailsInfo .infoList dl dd {
+  width: 100%;
+  padding-left: 2.26666667rem;
+  color: #666;
+  line-height: 0.45333333rem;
+  font-size: 0.37333333rem;
+}
+.html_body .couponDetails .detailsInfo .codeBox {
+  width: 6.13333333rem;
+  margin: 0 auto;
+  height: 6.13333333rem;
+  background: url(../img/codeBorder.png?v=KXgfwfWdVpopewuXKunNeg%3D%3D);
+  background-size: 6.13333333rem 6.13333333rem;
+  margin-top: 0.86666667rem;
+  margin-bottom: 0.06666667rem;
+}
+.html_body .couponDetails .detailsInfo .codeBox img {
+  width: 100%;
+  height: 100%;
+  padding: 0.13333333rem 0.13333333rem 0.13333333rem 0.13333333rem;
+}
+.html_body .couponDetails .detailsInfo .codeNum {
+  width: 100%;
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  color: #333;
+  margin-bottom: 0.53333333rem;
+}
+.html_body .couponDetails .detailsInfo .hintText {
+  width: 100%;
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  color: #999;
+  margin-bottom: 1rem;
+}
+.html_body .conditionStore {
+  width: 100%;
+  background: #f4f6f7;
+  padding-top: 0.32rem;
+}
+.html_body .conditionStore .stroeList {
+  width: 100%;
+  padding: 0rem 0.32rem 0rem 0.32rem;
+  background: #fff;
+}
+.html_body .conditionStore .stroeList dl {
+  width: 100%;
+  border-bottom: 1px #ddd solid;
+  padding: 0.4rem 0rem 0.4rem 0rem;
+}
+.html_body .conditionStore .stroeList dl dt {
+  color: #333;
+  font-size: 0.4rem;
+  line-height: 0.48rem;
+  margin-bottom: 0.2rem;
+}
+.html_body .conditionStore .stroeList dl dd {
+  color: #999;
+  font-size: 0.34666667rem;
+  line-height: 0.42666667rem;
+}
+.html_body .scanFocus {
+  width: 100%;
+  background: #f88c23;
+}
+.html_body .scanFocus .scanFocusBox {
+  width: 100%;
+  padding: 0.93333333rem 0.6rem 1.06666667rem 0.6rem;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.html_body .scanFocus .scanFocusBox .codeBox {
+  background: #fff;
+  width: 100%;
+  padding: 0.53333333rem 0rem 0.98666667rem 0rem;
+  border-radius: 0.12rem;
+  border: 1px #ddd solid;
+  box-shadow: 0rem 0.13333333rem 0.66666667rem 0rem #9e4c0b;
+  margin-bottom: 1.06666667rem;
+}
+.html_body .scanFocus .scanFocusBox .codeBox .storeLogo {
+  width: 1.97333333rem;
+  height: 1.97333333rem;
+  margin: 0 auto;
+  border: 1px #ddd solid;
+  border-radius: 50%;
+}
+.html_body .scanFocus .scanFocusBox .codeBox .storeLogo img {
+  width: 1.14666667rem;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.html_body .scanFocus .scanFocusBox .codeBox .storeName {
+  width: 100%;
+  line-height: 0.48rem;
+  font-size: 0.4rem;
+  padding: 0.2rem 0rem 0.56rem 0rem;
+  color: #ef8025;
+}
+.html_body .scanFocus .scanFocusBox .codeBox .codeImg {
+  width: 5.86666667rem;
+  height: 5.86666667rem;
+  margin: 0 auto;
+  padding-bottom: 0.2rem;
+}
+.html_body .scanFocus .scanFocusBox .codeBox .explainText {
+  width: 100%;
+  line-height: 0.45333333rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+.html_body .scanFocus .scanFocusBox .shareBtn {
+  border: 1px #fff solid;
+  padding: 0.21333333rem 0rem 0.21333333rem 0rem;
+  line-height: 0.48rem;
+  width: 5.33333333rem;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 0.48rem;
+  font-size: 0.4rem;
+}
+.html_body .nowUse {
+  width: 100%;
+  background: #333;
+  padding: 0.90666667rem 0.58666667rem 1.12rem 0.58666667rem;
+  left: 0;
+  top: 0;
+}
+.html_body .nowUse .nowUseWrap {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  padding: 0.90666667rem 0.58666667rem 1.12rem 0.58666667rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox {
+  background: #fff;
+  width: 100%;
+  border-radius: 0.13333333rem;
+  overflow: hidden;
+  left: 0.58666667rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop {
+  width: 100%;
+  height: 3.09333333rem;
+  background: url(../img/ticketTopBg.jpg?v=80P9mPPIfGuSKVUxN%2BmEgA%3D%3D);
+  padding: 0.4rem 0rem 0rem 0rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dt {
+  color: #999;
+  height: 0.93333333rem;
+  left: 0;
+  top: 0;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dt .textTop {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 0.93333333rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dt .textTop .logoBox {
+  width: 0.93333333rem;
+  height: 0.93333333rem;
+  border: 0.01333333rem #999 solid;
+  border-radius: 50%;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dt .textTop .logoBox .logoImg {
+  width: 0.77333333rem;
+  height: 0.77333333rem;
+  background-size: 0.77333333rem 0.77333333rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: #999;
+  margin: 0 auto;
+  -webkit-transform: translate(0rem, 0.08rem);
+          transform: translate(0rem, 0.08rem);
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dt .textTop .text {
+  font-size: 0.48rem;
+  line-height: 0.93333333rem;
+  margin-left: 0.18666667rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dd {
+  width: 100%;
+  line-height: 0.77333333rem;
+  color: #333;
+  font-size: 0.69333333rem;
+  padding-top: 0.24rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .ticketTop dd span {
+  color: #ef8025;
+  margin-right: 0.13333333rem;
+  font-size: 0.72rem;
+  line-height: 0.77333333rem;
+  -webkit-transform: translate(0rem, 0.02666667rem);
+          transform: translate(0rem, 0.02666667rem);
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .line {
+  width: 100%;
+  height: 2px;
+  border-bottom: 0.02666667rem #999 dashed;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .line .circleBg {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: #333;
+  z-index: 2;
+  border-radius: 50%;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .line .circleBg.circleLeft {
+  left: -0.16rem;
+  top: -0.14666667rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .line .circleBg.circleRight {
+  right: -0.16rem;
+  top: -0.14666667rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .codeBox {
+  width: 100%;
+  padding: 0.73333333rem 0rem 1rem 0rem;
+  background: #fff;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .codeBox .codeBg {
+  width: 6.13333333rem;
+  height: 6.13333333rem;
+  background: url(../img/codeBorder.png?v=KXgfwfWdVpopewuXKunNeg%3D%3D);
+  background-size: 6.13333333rem 6.13333333rem;
+  margin: 0 auto;
+  padding: 0.13333333rem 0.13333333rem 0.13333333rem 0.13333333rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .codeBox .codeBg img {
+  width: 5.86666667rem;
+  height: 5.86666667rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .codeNum {
+  width: 100%;
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  color: #333;
+  padding: 0.18666667rem 0rem 0.53333333rem 0rem;
+}
+.html_body .nowUse .nowUseWrap .nowUseBox .hintText {
+  width: 100%;
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+.html_body .nowUse .nowUseWrap .closeBtn {
+  width: 1.01333333rem;
+  height: 1.01333333rem;
+  margin: 0 auto;
+  margin-top: 0.64rem;
+  background-image: url(../img/closeBtn.png?v=LyaLxav1MVs2cEBW0Z7KSg%3D%3D);
+  background-size: 1.01333333rem 1.01333333rem;
+}
+.html_body .registerVip {
+  background: #f4f6f7;
+  width: 100%;
+  padding: 0.42666667rem 0.32rem 1rem 0.32rem;
+}
+.html_body .registerVip .titleText {
+  font-size: 0.34666667rem;
+  color: #666;
+  line-height: 0.45333333rem;
+  padding-bottom: 0.45333333rem;
+  padding-left: 0.26666667rem;
+}
+.html_body .registerVip .registerVipBox {
+  width: 100%;
+  border: 0.01333333rem #ddd solid;
+  border-radius: 0.10666667rem;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  background: #fff;
+}
+.html_body .registerVip .registerVipBox .box {
+  padding: 0.36rem 0rem 0.36rem 0rem;
+  width: 100%;
+  border-bottom: 0.01333333rem #ddd solid;
+  height: 1.28rem;
+  line-height: 0.56rem;
+}
+.html_body .registerVip .registerVipBox .box:last-of-type {
+  border-bottom: none;
+}
+.html_body .registerVip .registerVipBox .box .text {
+  font-size: 0.4rem;
+  color: #333;
+  margin-right: 0.2rem;
+  line-height: 0.56rem;
+  height: 0.56rem;
+}
+.html_body .registerVip .registerVipBox .box span {
+  color: #de0f0f;
+  margin-right: 0.21333333rem;
+  line-height: 0.56rem;
+  height: 0.56rem;
+  font-size: 0.4rem;
+}
+.html_body .registerVip .registerVipBox .box .writeText {
+  width: 7.30666667rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  -webkit-transform: translate(0rem, -0.02666667rem);
+          transform: translate(0rem, -0.02666667rem);
+}
+.html_body .registerVip .registerVipBox .box .writeText .input-append {
+  height: 0.56rem;
+  line-height: 0.56rem;
+}
+.html_body .registerVip .registerVipBox .box .writeText .input-append .add-on {
+  display: none;
+}
+.html_body .registerVip .registerVipBox .box .writeText input {
+  width: 4.66666667rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  border: none;
+  border-width: 0;
+  font-size: 0.4rem;
+  padding: 0rem 0.06666667rem 0rem 0.06666667rem;
+}
+.html_body .registerVip .registerVipBox .box .writeText .sexBox .sexText {
+  font-size: 0.4rem;
+  line-height: 0.56rem;
+}
+.html_body .registerVip .registerVipBox .box .writeText .sexBox .switchBtn {
+  width: 1.04rem;
+  height: 0.56rem;
+  border: 0.01333333rem #d3d3d3 solid;
+  border-radius: 0.56rem;
+  margin-left: 0.2rem;
+}
+.html_body .registerVip .registerVipBox .box .writeText .sexBox .switchBtn .circle {
+  width: 0.42666667rem;
+  height: 0.42666667rem;
+  background: #fc5c9c;
+  border-radius: 50%;
+  right: 0.05333333rem;
+  top: 0.04rem;
+  z-index: 2;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0rem, 0rem);
+          transform: translate(0rem, 0rem);
+}
+.html_body .registerVip .registerVipBox .box .writeText .sexBox .switchBtn.boy .circle {
+  background: #5c67fc;
+  -webkit-transform: translate(-0.45333333rem, 0rem);
+          transform: translate(-0.45333333rem, 0rem);
+}
+.html_body .registerVip .btn {
+  width: 100%;
+  height: 1.17333333rem;
+  background: #ef8025;
+  margin-top: 0.66666667rem;
+  color: #fff;
+  font-size: 0.4rem;
+  line-height: 1.17333333rem;
+  padding: 0;
+  border-radius: 0.10666667rem;
+}
+.html_body .registerVip .btn:active {
+  opacity: 0.8;
+}
+.html_body .registerVip .fixTitle {
+  width: 100%;
+  bottom: 1rem;
+  left: 0;
+  color: #999;
+  line-height: 0.42666667rem;
+  font-size: 0.32rem;
+}
+.datetimepicker {
+  padding: 0.05333333rem 0.05333333rem 0.05333333rem 0.05333333rem;
+  margin-top: 0.01333333rem;
+  border-radius: 0.05333333rem;
+}
+.datetimepicker-inline {
+  width: 2.93333333rem;
+}
+[class*=" datetimepicker-dropdown"]:before {
+  border-left: 0.09333333rem transparent solid;
+  border-right: 0.09333333rem transparent solid;
+  border-bottom: 0.09333333rem #cccccc solid;
+  border-width: 0;
+}
+[class*=" datetimepicker-dropdown"]:after {
+  border-left: 0.08rem transparent solid;
+  border-right: 0.08rem transparent solid;
+  border-bottom: 0.08rem #fff solid;
+}
+[class*=" datetimepicker-dropdown-top"]:before {
+  border-left: 0.09333333rem transparent solid;
+  border-right: 0.09333333rem transparent solid;
+  border-bottom: 0.09333333rem #cccccc solid;
+}
+[class*=" datetimepicker-dropdown-top"]:after {
+  border-left: 0.08rem transparent solid;
+  border-right: 0.08rem transparent solid;
+  border-bottom: 0.08rem #fff solid;
+}
+.datetimepicker-dropdown-bottom-left:before {
+  top: -0.09333333rem;
+  right: 0.08rem;
+}
+.datetimepicker-dropdown-bottom-left:after {
+  top: -0.08rem;
+  right: 0.09333333rem;
+}
+.datetimepicker-dropdown-bottom-right:before {
+  top: -0.09333333rem;
+  left: 0.08rem;
+}
+.datetimepicker-dropdown-bottom-right:after {
+  top: -0.08rem;
+  left: 0.09333333rem;
+  border-width: 0;
+  width: 0;
+}
+.datetimepicker-dropdown-top-left:before {
+  bottom: -0.09333333rem;
+  right: 0.08rem;
+}
+.datetimepicker-dropdown-top-left:after {
+  bottom: -0.08rem;
+  right: 0.09333333rem;
+}
+.datetimepicker-dropdown-top-right:before {
+  bottom: -0.09333333rem;
+  left: 0.08rem;
+}
+.datetimepicker-dropdown-top-right:after {
+  bottom: -0.08rem;
+  left: 0.09333333rem;
+}
+.datetimepicker td,
+.datetimepicker th {
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  border-radius: 0.05333333rem;
+}
+.datetimepicker table tr td span {
+  width: 23%;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  border-radius: 0.05333333rem;
+}
+.datetimepicker .datetimepicker-hours span {
+  height: 0.34666667rem;
+  line-height: 0.34666667rem;
+}
+.datetimepicker .datetimepicker-hours fieldset legend,
+.datetimepicker .datetimepicker-minutes fieldset legend {
+  line-height: 0.4rem;
+}
+.datetimepicker .datetimepicker-minutes span {
+  height: 0.34666667rem;
+  line-height: 0.34666667rem;
+}
+.datetimepicker th.switch {
+  width: 1.93333333rem;
+}
+.input-append.date .add-on i,
+.input-group.date .input-group-addon span,
+.input-prepend.date .add-on i {
+  width: 0.18666667rem;
+  height: 0.18666667rem;
+}
+.dropdown-menu {
+  font-size: 0.29333333rem;
+  left: 10% !important;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0.02666667rem;
+  min-width: 2.13333333rem;
+  width: 80%;
+  position: fixed;
+}
+.table-condensed > tbody > tr > td,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > td,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > thead > tr > th {
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+.datetimepicker table {
+  width: 100%;
+}
+.html_body .vipCode {
+  width: 100%;
+  padding: 2.29333333rem 0rem 1.06666667rem 0rem;
+}
+.html_body .vipCode .vipCodeBox {
+  width: 8.82666667rem;
+  margin: 0 auto;
+  padding: 1.42666667rem 1.46666667rem 1.30666667rem 1.46666667rem;
+  background: #fff;
+  border-radius: 0.13333333rem;
+  border: 0.01333333rem #ddd solid;
+}
+.html_body .vipCode .vipCodeBox .logoBox {
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 0.01333333rem #ddd solid;
+  border-radius: 50%;
+  z-index: 2;
+  background: #fff;
+  width: 1.97333333rem;
+  height: 1.97333333rem;
+}
+.html_body .vipCode .vipCodeBox .logoBox .logoWrap {
+  width: 1.94666667rem;
+  height: 1.94666667rem;
+  left: 0;
+  top: 0;
+}
+.html_body .vipCode .vipCodeBox .logoBox .logoWrap img {
+  width: 1.14666667rem;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+}
+.html_body .vipCode .vipCodeBox .codeName {
+  width: 100%;
+  color: #ef8025;
+  line-height: 0.48rem;
+  font-size: 0.4rem;
+}
+.html_body .vipCode .vipCodeBox .codeImg {
+  width: 5.86666667rem;
+  height: 5.86666667rem;
+  margin: 0 auto;
+  margin-top: 0.61333333rem;
+  margin-bottom: 0.18666667rem;
+}
+.html_body .vipCode .vipCodeBox .codeNum {
+  width: 100%;
+  line-height: 0.4rem;
+  color: #333;
+  font-size: 0.4rem;
+}
+.html_body .vipCode .hintText {
+  width: 100%;
+  padding-top: 0.73333333rem;
+  color: #999;
+  font-size: 0.32rem;
+  line-height: 0.42666667rem;
+}
+.html_body .myVipTicket {
+  width: 100%;
+}
+.html_body .myVipTicket .navTop {
+  width: 100%;
+  background: #fff;
+  height: 1.17333333rem;
+  margin-bottom: 0.05333333rem;
+}
+.html_body .myVipTicket .navTop li {
+  width: 50%;
+  border-bottom: 0.05333333rem #fff solid;
+  color: #333;
+  font-size: 0.4rem;
+  line-height: 0.48rem;
+  padding: 0.37333333rem 0rem 0.26666667rem 0rem;
+}
+.html_body .myVipTicket .navTop li.active {
+  border-bottom: 0.05333333rem #ff6600 solid;
+  color: #ff6600;
+}
+.html_body .myVipTicket .ticketList {
+  width: 100%;
+  padding: 0.08rem 0.29333333rem 0rem 0.29333333rem;
+}
+.html_body .myVipTicket .ticketList .box {
+  width: 100%;
+  background-image: url(../img/ticketBg2.png?v=EekGlSac591hli%2BV5ud%2BNQ%3D%3D);
+  background-size: 9.4rem 2.16rem;
+  background-position: center center;
+  height: 2.16rem;
+  margin-top: 0.24rem;
+  background-repeat: no-repeat;
+  padding: 0rem 0.28rem 0rem 0.09333333rem;
+}
+.html_body .myVipTicket .ticketList .box.used {
+  background-image: url(../img/ticketBg1.png?v=cEU3W%2Fuezfy85EvgO%2Bk1KQ%3D%3D);
+}
+.html_body .myVipTicket .ticketList .box.past {
+  background-image: url(../img/ticketBg3.png?v=fnCxSueIrkS3KsVCRja0Fg%3D%3D);
+}
+.html_body .myVipTicket .ticketList .box .LogoBox {
+  width: 2.10666667rem;
+  height: 2.13333333rem;
+}
+.html_body .myVipTicket .ticketList .box .LogoBox .ticketLogo {
+  width: 1.36rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.html_body .myVipTicket .ticketList .box dl {
+  padding: 0.49333333rem 0rem 0rem 0.50666667rem;
+  width: 6.90666667rem;
+}
+.html_body .myVipTicket .ticketList .box dl dt {
+  color: #666;
+  font-size: 0.34666667rem;
+  line-height: 0.42666667rem;
+}
+.html_body .myVipTicket .ticketList .box dl dt .days {
+  line-height: 0.37333333rem;
+  padding: 0.01333333rem 0.18666667rem 0.01333333rem 0.18666667rem;
+  border: 0.01333333rem #ff6600 dashed;
+  background: #fff2ea;
+  color: #ff6600;
+  font-size: 0.32rem;
+}
+.html_body .myVipTicket .ticketList .box dl dd {
+  padding-top: 0.33333333rem;
+  color: #333;
+  font-size: 0.4rem;
+  line-height: 0.48rem;
+}
+.html_body .myVipTicket .ticketList .noTicket {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 80vh;
+  background-image: url(../img/icon.png?v=QwoTCI8Ejs2t779LA30CGw%3D%3D);
+  background-repeat: no-repeat;
+  background-size: 4.72rem 2.8rem;
+  background-position: center center;
+}
+.html_body .myVipTicket .ticketList .noTicket .noTicketText {
+  width: 100%;
+  line-height: 0.50666667rem;
+  font-size: 0.4rem;
+  padding: 1.93333333rem 0.4rem 0rem 0.4rem;
+  color: #999;
+  top: 50%;
+}

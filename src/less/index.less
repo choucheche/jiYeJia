@@ -1,0 +1,97 @@
+@import 'configuration.less'; // 转换大小
+@import 'property.less'; // 简写 class 样式
+@import 'variable.less'; // 设置变量
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-size-adjust: 100%;
+}
+
+html * {
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    /*禁止点击链接后，IOS出现背景色*/
+    text-size-adjust: 100%;
+    border: none;
+}
+
+body,
+html {
+    font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Roboto,STHeiTi,Arial,sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    background: @defaultColor;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+input,
+textarea {
+    -webkit-appearance: none;
+    /*消除输入框和按钮的原生外观*/
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+dl {
+    margin: 0;
+}
+
+dl dt {
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.html_body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.loadingIcon {
+    width: 100%;
+    .h(60);
+    background: url('../img/load_gif.gif') no-repeat center center;
+    .bg-s(32,32);
+}
+
+.noThing {
+    width: 100%;
+    .l-h(80);
+    .f-s(30);
+    color: @textgrayColor1;
+}
+
+@import "myCard.less"; //我的会员卡
+@import "myConsumeTicket.less"; //我的消费券
+@import "myIntegral.less"; //我的积分列表
+@import "couponDetails.less"; //优惠券详情
+@import "conditionStore.less"; //适用门店
+@import "scanFocus.less"; //扫描关注
+@import "nowUse.less"; //立即使用
+@import "registerVip.less"; //注册会员
+@import "vipCode.less"; //会员的二维码
+@import "myVipTicket.less"; //我的会员专属券

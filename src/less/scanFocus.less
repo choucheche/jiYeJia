@@ -1,0 +1,71 @@
+.html_body {
+    .scanFocus {
+        width: 100%;
+        background: @orangeColor1;
+
+        .scanFocusBox {
+          width: 100%;
+          .p(70,45,80,45);
+          left:0;
+          top:50%;
+          transform:translateY(-50%);
+            .codeBox {
+                background: @defaultColor;
+                width: 100%;
+                .p(40,0,74,0);
+                .b-r(9);
+                border: 1px @linegrayColor1 solid;
+                .b-s(0,10,50,0,#9e4c0b);
+                .mb(80);
+
+                .storeLogo {
+                    .w(148);
+                    .h(148);
+                    margin: 0 auto;
+                    border: 1px @linegrayColor1 solid;
+                    border-radius: 50%;
+
+                    img {
+                        .w(86);
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                }
+
+                .storeName {
+                    width: 100%;
+                    .l-h(36);
+                    .f-s(30);
+                    .p(15,0,42,0);
+                    color: @orangeColor2;
+                }
+
+                .codeImg {
+                    .w(440);
+                    .h(440);
+                    margin: 0 auto;
+                    .pb(15);
+                }
+
+                .explainText {
+                    width: 100%;
+                    .l-h(34);
+                    .f-s(24);
+                    color: @textgrayColor1;
+                }
+            }
+
+            .shareBtn {
+                border: 1px @defaultColor solid;
+                .p(16,0,16,0);
+                .l-h(36);
+                .w(400);
+                margin: 0 auto;
+                color: @defaultColor;
+                .b-r(36);
+                .f-s(30);
+            }
+        }
+    }
+}

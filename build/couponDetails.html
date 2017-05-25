@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<script>
+  (function IsPC() {
+    for (var userAgentInfo = navigator.userAgent, Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"], flag = !0, v = 0; v < Agents.length; v++)
+      if (userAgentInfo.indexOf(Agents[v]) > 0) {
+        console.log('移动');
+
+        document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+'px';
+        //body字体大小为页面宽度除以 10
+
+        return
+      }
+    console.log('PC');
+
+    document.getElementsByTagName('html')[0].style.fontSize=75+'px';
+    /*
+      设置页面 html 文字根字号大小为37.5，为了让 less 好计算
+      这样 less 里的数值是多少就是多少 px了
+    */
+    return
+  })();
+  // 判断浏览器是手机还是PC
+</script>
+<link type='text/css' rel='stylesheet' href='public/bootstrap/css/bootstrap.min.css'>
+
+  <title>优惠券详情</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=b16e8572d951c5754a26408bebc7d5ab'>
+</head>
+<body>
+<div class='html_body'>
+  <div class='couponDetails'>
+    <div class='detailsInfo'>
+      <p class='titleText d-b'>优惠详情</p>
+      <div class='infoList'>
+        <dl class='p-r'>
+          <dt class='d-b p-a'>优惠券名称：</dt>
+          <dd class='d-b'>消费获得积分</dd>
+        </dl>
+        <dl class='p-r'>
+          <dt class='d-b p-a'>优惠券类型：</dt>
+          <dd class='d-b'>永久有效</dd>
+        </dl>
+        <dl class='p-r'>
+          <dt class='d-b p-a'>减 免 金 额：</dt>
+          <dd class='d-b'>每人限领1张</dd>
+        </dl>
+        <dl class='p-r'>
+          <dt class='d-b p-a'>有 效 日 期：</dt>
+          <dd class='d-b'>2017.01.12-2017.12.12</dd>
+        </dl>
+        <dl class='p-r'>
+          <dt class='d-b p-a'>优 惠 说 明：</dt>
+          <dd class='d-b'>按照减免金额抵用现金，一次性消费不找零。</dd>
+        </dl>
+        <dl class='p-r'>
+          <dt class='d-b p-a'>使 用 须 知：</dt>
+          <dd class='d-b'>本优惠券仅限中国大陆地区售卖优惠券内产品的吉野家餐厅适用，机场、火车站等交通枢纽餐厅以及旅游区、旅游景区的餐厅除外，具体以店内公示为准。</dd>
+        </dl>
+      </div>
+    </div>
+    <div class='detailsInfo'>
+      <p class='titleText d-b'>二维码</p>
+      <div class='codeBox d-b'>
+        <img class='d-b' src='img/codeImg.jpg'>
+      </div>
+      <div class='codeNum ta-c'>9685 1941 8371</div>
+      <div class='hintText ta-c'>出示给店员扫描二维码即可使用</div>
+    </div>
+  </div>
+</div>
+<script src='public/jquery/jquery-1.12.4.min.js'></script>
+<script src='public/bootstrap/js/bootstrap.min.js'></script>
+<script>
+  $(function(){
+    $(window).resize(function() {
+    //当页面宽度变化时
+      (function IsPC() {
+      //判断是 移动端 还是 PC
+        for (var userAgentInfo = navigator.userAgent, Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"], flag = !0, v = 0; v < Agents.length; v++)
+          if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            console.log('移动');
+
+            document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+'px';
+            //body字体大小为页面宽度除以 10
+
+            return
+          }
+        console.log('PC');
+
+        document.getElementsByTagName('html')[0].style.fontSize=75+'px';
+        /*
+          设置页面 html 文字根字号大小为37.5，为了让 less 好计算
+          这样 less 里的数值是多少就是多少 px了
+        */
+
+        return
+      })();
+    });
+
+  });
+</script>
+
+<script src='js/index.js?rev=b3ffbaa060cb9447726916a09f6d8d70'></script>
+<script>
+  $(function(){
+    js_.couponDetails();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.html_body {
+    .vipCode {
+      width:100%;
+      .p(172,0,80,0);
+      .vipCodeBox{
+        .w(662);
+        margin:0 auto;
+        .p(107,110,98,110);
+        background:@defaultColor;
+        .b-r(10);
+        .border(1,@linegrayColor1);
+        .logoBox{
+          left:50%;
+          top:0;
+          transform:translate(-50%,-50%);
+          .border(1,@linegrayColor1);
+          border-radius:50%;
+          z-index:2;
+          background:@defaultColor;
+          .w(148);
+          .h(148);
+          .logoWrap{
+            .w(146);
+            .h(146);
+            left:0;
+            top:0;
+            img{
+              .w(86);
+              margin:0 auto;
+              top:50%;
+              transform:translate(-50%,-50%);
+              left:50%;
+
+            }
+          }
+
+        }
+        .codeName{
+          width:100%;
+          color:@orangeColor2;
+          .l-h(36);
+          .f-s(30);
+        }
+        .codeImg{
+          .w(440);
+          .h(440);
+          margin:0 auto;
+          .mt(46);
+          .mb(14);
+        }
+        .codeNum{
+          width:100%;
+          .l-h(30);
+          color:@textblackColor1;
+          .f-s(30);
+        }
+      }
+      .hintText{
+        width:100%;
+        .pt(55);
+        color:@textgrayColor1;
+        .f-s(24);
+        .l-h(32);
+      }
+    }
+}

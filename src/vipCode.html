@@ -1,0 +1,30 @@
+@@include('./include/header.html')
+  <title>优惠券详情</title>
+  <link type='text/css' rel='stylesheet' href='public/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css'>
+  <link type='text/css' rel='stylesheet' href='./css/index.css?rev=@@hash'>
+</head>
+<body style='background:#f4f6f7;'>
+<div class='html_body'>
+  <div class='vipCode'>
+    <div class="vipCodeBox d-b p-r">
+      <div class='logoBox d-b p-a'>
+        <div class='logoWrap d-b p-r'>
+        <img class='d-b p-a' src='img/jiyejiaLogo2.jpg'>
+      </div>
+    </div>
+    <div class='codeName ta-c'>吉野家VIP会员卡</div>
+    <img class='codeImg d-b' src='img/codeImg.jpg'>
+    <div class='codeNum ta-c'>2017 7776 1927 012</div>
+  </div>
+  <div class='hintText ta-c'>请在结账前出示此卡</div>
+</div>
+@@include('./include/footer.html')
+<script src='public/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js'></script>
+<script src='js/index.js?rev=@@hash'></script>
+<script>
+  $(function(){
+    js_.vipCode();
+  });
+</script>
+</body>
+</html>

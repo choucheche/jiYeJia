@@ -1,0 +1,107 @@
+.html_body {
+    .myIntegral {
+        .myIntegralNum {
+            background: url('../img/myIntegralNumBg.jpg');
+            background-size: 100% 100%;
+            .h(300);
+            width: 100%;
+            .pt(95);
+
+            dl {
+                width: 100%;
+
+                dt {
+                    .f-s(24);
+                    .l-h(30);
+                    .pb(10);
+                    color: @pinkColor3;
+                }
+
+                dd {
+                    .f-s(48);
+                    .l-h(54);
+                    color: @defaultColor;
+                }
+            }
+        }
+
+        .myIntegralTitle {
+            width: 100%;
+            .p(14,0,14,24);
+            color: @textblackColor3;
+            .f-s(24);
+            .l-h(32);
+            background: @linegrayColor2;
+        }
+
+        .integralList {
+            width: 100%;
+            .p(0,24,0,24);
+
+            .box {
+                width: 100%;
+                background: @defaultColor;
+                border-bottom: 1px @linegrayColor1 solid;
+
+                dl {
+                    .p(25,0,15,0);
+                    .w(600);
+
+                    dt {
+                        color: @textblackColor1;
+                        .f-s(30);
+                        .l-h(36);
+                        .pb(14);
+                    }
+
+                    dd {
+                        color: @textgrayColor1;
+                        .f-s(24);
+                        .l-h(26);
+                    }
+                }
+
+                .integralNum {
+                    .l-h(30);
+                    .f-s(30);
+                    color: @textblackColor1;
+                    .pt(30);
+                }
+            }
+        }
+
+        .codeFix {
+            right: 0;
+            .b(60);
+            z-index: 999;
+            .w(208);
+            .h(64);
+            background: @textblackColor1;
+            .p(0,20,0,6);
+            .b-r-t-l(32);
+            .b-r-b-l(32);
+
+            .code {
+                .w(52);
+                .h(52);
+                background: @defaultColor;
+                .p(12,0,12,0);
+                .mt(6);
+                border-radius: 50%;
+
+                img {
+                    .w(28);
+                    .h(28);
+                    margin: 0 auto;
+                }
+            }
+
+            .text {
+                color: #fff;
+                .l-h(34);
+                .f-s(28);
+                .pt(15);
+            }
+        }
+    }
+}

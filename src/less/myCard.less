@@ -1,0 +1,154 @@
+.html_body {
+    .myCard {
+        width: 100%;
+        background: @defaultColor;
+
+        .myCardWarp {
+            .p(38,24,22,24);
+            width: 100%;
+
+            .myCardBox {
+                .w(702);
+                .h(422);
+                .b-r(24);
+                .b-s(0,5,30,0,#262525);
+                .mb(42);
+                .p(42,62,0,42);
+                background-size: 100% 100%;
+
+                .logoImg {
+                    .w(92);
+                    .h(92);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    border-radius: 50%;
+                    background-size: 100% auto;
+                    background-color: @defaultColor;
+                    .border(1,#fff);
+                }
+
+                dl {
+                    .f-s(32);
+                    .l-h(40);
+                    color: @defaultColor;
+                    .pt(3);
+                    .ml(22);
+                    .l-s(1);
+
+                    dt {
+                        .pb(5);
+                    }
+                }
+
+                .codeImg {
+                    .w(48);
+                    .h(48);
+                    .t-t(0,22);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: 100% 100%;
+                }
+
+                .codeNum {
+                    width: 100%;
+                    .l-h(40);
+                    color: @defaultColor;
+                    .f-s(38);
+                    font-weight: bold;
+                    .pt(290);
+                }
+            }
+
+            .cardInfoBox {
+                width: 100%;
+
+                a {
+                    .w(233);
+                    .h(78);
+
+                    dl {
+                        &:active {
+                            opacity: 0.8;
+                        }
+
+                        dt {
+                            .f-s(36);
+                            .l-h(38);
+                            .pb(10);
+                            color: @orangeColor1;
+                        }
+
+                        dd {
+                            .f-s(24);
+                            .l-h(30);
+                            color: @textgrayColor1;
+                        }
+                    }
+                }
+
+                .line {
+                    .w(1);
+                    .h(54);
+                    background: @linegrayColor1;
+                    .t-t(0,10);
+                }
+            }
+        }
+
+        .graySeparate {
+            width: 100%;
+            .h(24);
+            background: @linegrayColor2;
+        }
+
+        .myVipList {
+            width: 100%;
+            .p(0,24,100,24);
+
+            .box {
+                width: 100%;
+                .l-h(38);
+                .p(30,0,30,65);
+                .f-s(30);
+                color: @textblackColor1;
+                .border-bottom(1,@linegrayColor1);
+                .bg-s(39,34);
+                background-repeat: no-repeat;
+                background-position: 0 center;
+
+                &.box1 {
+                    background-image: url('../img/myVipListIcon1.png');
+                }
+
+                &.box2 {
+                    background-image: url('../img/myVipListIcon2.png');
+                }
+
+                &.box3 {
+                    background-image: url('../img/myVipListIcon3.png');
+                }
+
+                &.box4 {
+                    background-image: url('../img/myVipListIcon4.png');
+                }
+
+                &:after {
+                    content: "";
+                    display: block;
+                    background-image: url('../img/arrowsMore.png');
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    .w(10);
+                    .h(18);
+                    .mt(-9);
+                    .bg-s(10,18);
+                }
+
+                &:active {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
