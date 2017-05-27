@@ -1153,3 +1153,30 @@ ul {
   color: #999;
   top: 50%;
 }
+.error404 {
+  width: 100%;
+}
+.error404 a.link {
+  width: 2.8rem;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+.error404 a.link:active {
+  opacity: 0.8;
+}
+.error404 img {
+  display: block;
+  margin: 0 auto;
+}
+.error404 img.img1 {
+  width: 5.49333333rem;
+  padding: 3.2rem 0rem 1.86666667rem 0rem;
+}
+.error404 img.img2 {
+  width: 4.66666667rem;
+}
+.error404 img.img3 {
+  width: 100%;
+}
